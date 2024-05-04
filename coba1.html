@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .typing-text {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 10;
+      border-right: 1px solid black;
+      animation: typing 3s steps(100) infinite, changeColor 0.7s linear infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes changeColor {
+      0% {
+        color: red;
+      }
+      25% {
+        color: blue;
+      }
+      50% {
+        color: green;
+      }
+      75% {
+        color: orange;
+      }
+      100% {
+        color: rgb(0, 166, 255);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <span class="typing-text">Nama  : Alvian Alif Firmansyah</span><br>
+    <span class="typing-text">Kelas : XI RP</span><br>
+  </h1>
+</body>
+</html>
